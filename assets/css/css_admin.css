@@ -1,0 +1,254 @@
+#MSF_box_id .input-group label{
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.q_choices{
+    margin-top: 20px;
+    /* display: none; */
+}
+
+.q_choices .q_choices_lable{
+    font-weight: bold;
+    margin: 10px 0;
+    
+}
+.q_choices .q_choice_input .input-group{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c3c4c7;
+    display: flex;
+    justify-content: space-between;
+}
+.q_choices .q_choice_input .input-group .q_choices_input{
+    flex: 0 0 95%;
+}
+
+.msf-row .input-group button,
+.q_choices .add_q_choice{
+    margin-left: auto;
+    border: 0;
+    background: #2c3338;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.msf-row .input-group .save_question{
+    margin-left: initial;
+}
+.remove{
+    border: 0;
+    background: #2c3338;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Leads Content */
+.msf-leads-content{
+    /* background: white; */
+    padding: 10px;
+}
+.msf-leads-content .msf-tabs-list{
+    
+    width: fit-content;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 4px;
+}
+
+.msf-leads-content .msf-tabs-list li{
+    display: inline-block;
+    margin-bottom: 0;
+    background-color: white;
+    outline: none;
+}
+
+.msf-leads-content .msf-tabs-list li:hover,
+.msf-leads-content .msf-tabs-list li.current{
+    background-color: #2c3338;
+}
+
+.msf-leads-content .msf-tabs-list li:hover a,
+.msf-leads-content .msf-tabs-list li.current a{
+    color: white;
+}
+
+.msf-leads-content .msf-tabs-list li:first-of-type{
+    border-top-left-radius: 10px;
+}
+
+.msf-leads-content .msf-tabs-list li:last-of-type{
+    border-top-right-radius: 10px;
+}
+
+
+
+.msf-leads-content .msf-tabs-list li a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #2c3338;
+    font-weight: bold;
+    font-size: 12px;
+    outline: none;
+}
+
+.msf-tabs-content{
+    background: white;
+    min-height: 50vh;
+    padding: 10px;
+    border-radius: 0 10px 10px;
+}
+
+.msf-row{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.msf-row .msf-col-6{
+    flex: 1;
+    background: #fbfbfb;
+    padding: 20px;
+}
+
+.msf-row .input-group{
+    flex: 0 0 100%;
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 10px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.msf-row .input-group label{
+    cursor: initial;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.msf-row .input-group input{
+    flex: 0 0 100%;
+}
+.msf-row .input-group .msf-form-q{
+    flex: 0 0 65%;
+    margin-right: 20px;
+}
+.bg-grey{
+    background: #f4f4f4b5;
+}
+
+.row_1{
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-top: 0;
+}
+
+.msf-form label{
+    cursor: initial;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.msf-col-12{
+    margin-bottom: 10px;
+}
+
+.success_info{
+    background-color: #f3f3f3;
+    color: black;
+    padding: 6px 10px;
+    font-size: 16px;
+    border-left: 8px solid green;
+}
+
+.error_info{
+    background-color: #f3f3f3;
+    color: black;
+    padding: 6px 10px;
+    font-size: 16px;
+    border-left: 8px solid rgb(128, 0, 26);
+}
+
+
+.msf-heading {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+.msf-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.msf-form textarea,
+.msf-form input[type="text"],
+.msf-form select {
+  border: none;
+  border-radius: 5px;
+  background-color: #f5f5f5 !important;
+  padding: 10px !important;
+  font-size: 14px;
+  width: 100%;
+  color: #333;
+}
+
+.msf-form textarea:focus,
+.msf-form input[type="text"]:focus,
+.msf-form select:focus {
+  outline: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.plus_button{
+    border: 0;
+    background: #2c3338;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+
+
+.plus_button .dashicons-plus{
+    color: white;
+}
+
+.nav_actions{
+   margin: 20px 0;
+}
+
+.nav_actions a{
+    background: #135e96;
+    color: white;
+    padding: 7px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+}
